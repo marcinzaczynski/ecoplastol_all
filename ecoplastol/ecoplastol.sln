@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecoplastol.Core", "ecoplastol.Core\ecoplastol.Core.csproj", "{6E38C413-BC68-427D-A32A-A1A0DC0BFC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecoplastol.Services", "ecoplastol.Services\ecoplastol.Services.csproj", "{4C1A046F-7AF0-4A2C-AC93-F9902BDBE848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecoplastol.DataAccess.SQL", "ecoplastol.DataAccess.SQL\ecoplastol.DataAccess.SQL.csproj", "{1BED0E4A-BB3D-4786-9114-1F307FDF2A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecoplastol.DataAccess.InMemory", "ecoplastol.DataAccess.InMemory\ecoplastol.DataAccess.InMemory.csproj", "{40B4AF35-5B1B-47F0-A885-6A5134D9CDCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecoplastol.WebUI", "ecoplastol.WebUI\ecoplastol.WebUI.csproj", "{9ED40382-2513-46CA-B0E3-BEA4D5973460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecoplastol.WebUI.Tests", "ecoplastol.WebUI.Tests\ecoplastol.WebUI.Tests.csproj", "{8337B5D8-DC36-4AAA-9C00-D3A5D95C9985}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E38C413-BC68-427D-A32A-A1A0DC0BFC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E38C413-BC68-427D-A32A-A1A0DC0BFC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E38C413-BC68-427D-A32A-A1A0DC0BFC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E38C413-BC68-427D-A32A-A1A0DC0BFC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1A046F-7AF0-4A2C-AC93-F9902BDBE848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1A046F-7AF0-4A2C-AC93-F9902BDBE848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1A046F-7AF0-4A2C-AC93-F9902BDBE848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1A046F-7AF0-4A2C-AC93-F9902BDBE848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BED0E4A-BB3D-4786-9114-1F307FDF2A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BED0E4A-BB3D-4786-9114-1F307FDF2A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BED0E4A-BB3D-4786-9114-1F307FDF2A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BED0E4A-BB3D-4786-9114-1F307FDF2A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B4AF35-5B1B-47F0-A885-6A5134D9CDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B4AF35-5B1B-47F0-A885-6A5134D9CDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B4AF35-5B1B-47F0-A885-6A5134D9CDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B4AF35-5B1B-47F0-A885-6A5134D9CDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED40382-2513-46CA-B0E3-BEA4D5973460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED40382-2513-46CA-B0E3-BEA4D5973460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED40382-2513-46CA-B0E3-BEA4D5973460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED40382-2513-46CA-B0E3-BEA4D5973460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8337B5D8-DC36-4AAA-9C00-D3A5D95C9985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8337B5D8-DC36-4AAA-9C00-D3A5D95C9985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8337B5D8-DC36-4AAA-9C00-D3A5D95C9985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8337B5D8-DC36-4AAA-9C00-D3A5D95C9985}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AC42D48-B1DA-4C15-829F-FE93BB6114D9}
+	EndGlobalSection
+EndGlobal
