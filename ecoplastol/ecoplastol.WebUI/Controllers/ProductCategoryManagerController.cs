@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ecoplastol.Core.Contracts;
 using ecoplastol.Core.Models;
 using ecoplastol.DataAccess.InMemory;
 
@@ -10,11 +11,11 @@ namespace ecoplastol.WebUI.Controllers
 {
     public class ProductCategoryManagerController : Controller
     {
-        InMemoryRepository<ProductCategory> context;
-
-        public ProductCategoryManagerController()
+        IRepository<ProductCategory> context;
+        
+        public ProductCategoryManagerController(IRepository<ProductCategory> categoryContext)
         {
-            context = new InMemoryRepository<ProductCategory>();
+            this.context = categoryContext;
         }
 
         // GET: ProductCategoryManager
