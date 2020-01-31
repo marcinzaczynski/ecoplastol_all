@@ -30,11 +30,11 @@ namespace ecoplastol.WebUI.Controllers
         public ActionResult Create()
         {
             ProductManagerViewModel viewModel = new ProductManagerViewModel();
-            viewModel.Product = 
+            viewModel.Product = new Product();
+            viewModel.ProductCategories = productCategories.Collection();
 
-
-            Product product = new Product();
-            return View(product);
+           
+            return View(viewModel);
         }
 
         [HttpPost]
@@ -62,7 +62,10 @@ namespace ecoplastol.WebUI.Controllers
             } 
             else
             {
-                return View(product);
+                ProductManagerViewModel viewModel = new ProductManagerViewModel();
+                viewModel.Product = product;
+                viewModel.ProductCategories = productCategories.Collection();
+                return View(viewModel);
             }
         }
 
