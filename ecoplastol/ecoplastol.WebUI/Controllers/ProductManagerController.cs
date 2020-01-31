@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ecoplastol.Core.Models;
+using ecoplastol.Core.ViewModels;
 using ecoplastol.DataAccess.InMemory;
 
 namespace ecoplastol.WebUI.Controllers
@@ -11,10 +12,13 @@ namespace ecoplastol.WebUI.Controllers
     public class ProductManagerController : Controller
     {
         ProductRepository context;
+        ProductCategoryRepository productCategories;
 
         public ProductManagerController()
         {
             context = new ProductRepository();
+            productCategories = new ProductCategoryRepository();
+
         }
         // GET: ProductManager
         public ActionResult Index()
@@ -25,6 +29,10 @@ namespace ecoplastol.WebUI.Controllers
 
         public ActionResult Create()
         {
+            ProductManagerViewModel viewModel = new ProductManagerViewModel();
+            viewModel.Product = 
+
+
             Product product = new Product();
             return View(product);
         }
